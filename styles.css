@@ -1,0 +1,99 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #2c2c2c;
+}
+
+/* Navegação */
+header nav {
+    background-color: #7b1fa2;
+    padding: 12px 0;
+}
+
+header nav ul.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul.menu li {
+    margin: 0 20px;
+}
+
+header nav ul.menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav ul.menu li a:hover {
+    color: #ffe;
+    text-decoration: underline;
+}
+
+/* Seções principais */
+section {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.12);
+}
+
+h1 {
+    margin-bottom: 18px;
+    color: #7b1fa2;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #7b1fa2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #4a148c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #eaeaea;
+}
